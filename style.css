@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Brush Script MT', cursive;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+h1{
+    color: midnightblue;
+}
+p{
+    text-align: center;
+}
+.money-img{
+    width: 350px;
+}
+.currency{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+select{
+    padding: 10px;
+    border: 1px solid blue;
+    font-size: 16px;
+    background: transparent;
+}
+input{
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    text-align: right;
+}
+select:focus,input:focus{
+    outline: none;
+}
+@media (max-width: 600px){
+    input{width: 200px}
+    p{padding: 40px}
+}
